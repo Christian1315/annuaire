@@ -20,4 +20,5 @@ Creer une Database nommée: annuaire
 php artisan migrate:fresh --seed
 
 ### DEMARRAGE REEL DU PROJET 
+php artisan storage:link
 php artisan serve
