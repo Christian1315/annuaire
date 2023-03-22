@@ -18,12 +18,12 @@
 
         <div class="row">
             <div class="col-md-12 shadow-lg" id="nav--bar">
-                <a class="" href="/">
+                <a class="home--logo" href="/panel">
                     <img src="{{asset('images/logo.png')}}" id="logo" alt="Logo Ville-Baie-Mahault" srcset="">
                 </a>
                 <div class="">
                     @if(Auth::check())
-                        <img src="{{asset('storage/avatars/'.Auth::user()->avatar)}}" class="avatar" alt="Logo Ville-Baie-Mahault" srcset=""> <span>{{ Auth::user()->identifiant }}</span>
+                    <img src="{{asset('storage/avatars/'.Auth::user()->avatar)}}" class="avatar" alt="Logo Ville-Baie-Mahault" srcset=""> <span>{{ Auth::user()->identifiant }}</span>
                     @else
                     <a href="/" class="login-btn">CONNEXION</a>
                     @endif
@@ -67,15 +67,17 @@
             </div>
 
 
-            <div class="col-md-8 my-5">
-
-                @yield('content')
-
+            <div class="col-md-8">
+                <div class="row content">
+                    <div class="col-md-12">
+                        @yield('content')
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row" id="footer">
             <div class="col-md-12">
-                <h3 class="footer--title">© <?php echo date('Y');?> - Tout droit réservé </h3>
+                <h3 class="footer--title">© <?php echo date('Y'); ?> - Tout droit réservé </h3>
             </div>
         </div>
     </div>

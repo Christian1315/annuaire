@@ -3,8 +3,7 @@ LE PROJET ANNUAIRE, vise à offrir un service.....
 
 ### Development Technology
 PHP
-LARAVEL FRAMEWORK 
-
+LARAVEL FRAMEWORK
 
 $ git clone https://github.com/Innov-Prime/annuaire.git
 $ cd annuaire-backend

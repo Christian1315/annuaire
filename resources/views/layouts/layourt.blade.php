@@ -17,7 +17,7 @@
 
         <div class="row">
             <div class="col-md-12 shadow-lg" id="nav--bar">
-                <a class="" href="/">
+                <a class="home--logo" href="/">
                     <img src="{{asset('images/logo.png')}}" id="logo" alt="Logo Ville-Baie-Mahault" srcset="">
                 </a>
                 <div class="">

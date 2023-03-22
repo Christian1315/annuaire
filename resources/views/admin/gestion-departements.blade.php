@@ -1,7 +1,7 @@
 <!-- APPEL AU LAYOURT -->
 @extends('layouts.manage-panel-layourt')
 
-@section('title',"Gestion des Directions")
+@section('title',"Gestion des Départements")
 
 @section('content')
 
@@ -12,9 +12,9 @@
         <h3 class="search--title d-none d-xs-none d-sm-none d-md-block d-lg-block text-green text-uppercase text-center">
             Gestion des departements</h3>
 
-        <div class="row my-5">
+        <div class="row">
             <div class="col-md-12  text-center">
-                <a href="/add-departement" class="close-button bg-green">AJOUTER UN DEPARTEMENT</a>
+                <a href="/add-departement" class="btn close-button bg-green">AJOUTER UN DEPARTEMENT</a>
             </div>
         </div>
         <livewire:search-departement/>
