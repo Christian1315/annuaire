@@ -153,6 +153,10 @@
     border-radius: 0px!important;
 }
 
+.content{
+    padding: 80px 10px;
+}
+
 #sidebar{
     border-right: solid 5px #DBDBDB;
     padding: 80px 0px;
@@ -162,8 +166,12 @@
 @media screen and (max-width: 763px) {
     #sidebar{
         border-right: solid 0px #DBDBDB;
-        padding: 80px 0px;
+        padding: 10px 0px;
         margin: 0;
+    }
+
+    .content{
+        padding: 10px 10px 20px 10px;
     }
 }
 
@@ -178,6 +186,14 @@
     text-decoration: none;
     color: inherit;
     padding: 3px 5px 3px 5px;
+    justify-content: center!important;
+}
+
+@media screen and (max-width: 763px) {
+    .know-more-button{
+        font-size:10px!important;
+        padding: 0px!important;
+    }
 }
 
 th{
@@ -216,6 +232,40 @@ label{
     color: white;
 }
 
+a:hover,button:hover{
+    background-color:#046B28!important;
+    color:#000!important;
+}
+a.home--logo{
+    background-color:transparent!important;
+}
+a.home--logo
+span.btn:hover{
+    background-color:#046B28!important;
+    color:#000!important;
+}
+
+span.btn{
+    margin-left: -10px!important;
+}
+
+
+
+@media screen and (max-width: 763px) {
+    .close-button{
+        font-size:20px!important;
+        text-align: center;
+        border-radius: 0px;
+        padding:5px!important;
+        border-color: transparent;
+        text-transform: capitalize;
+        text-align: center;
+        /* padding: 5px 30px; */
+        text-decoration: none;
+        color: white;
+    }
+}
+
 .manage-admin-button{
     font-size:20px;
     text-align: center;
@@ -226,6 +276,11 @@ label{
     text-align: center;
     padding: 5px 30px;
     text-decoration: none;
+    background-color: #fff!important;
+}
+
+.manage-admin-button:hover{
+    background-color: #fff!important;
 }
 
 .panel--title{

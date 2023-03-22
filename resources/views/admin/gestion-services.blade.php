@@ -11,9 +11,9 @@
     <h3 class="search--title d-none d-xs-none d-sm-none d-md-block d-lg-block text-green text-uppercase text-center">
         Gestion des Services</h3>
 
-    <div class="row my-5">
+    <div class="row">
         <div class="col-md-12  text-center">
-            <a href="/add-service" class="close-button bg-green">AJOUTER UN SERVICE</a>
+            <a href="/add-service" class="btn close-button bg-green">AJOUTER UN SERVICE</a>
         </div>
     </div>
     <livewire:search-service/>

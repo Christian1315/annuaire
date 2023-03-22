@@ -3758,7 +3758,8 @@ fieldset:disabled .btn {
     list-style: none;
     background-color: var(--bs-dropdown-bg);
     background-clip: padding-box;
-    border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+    /* border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color); */
+    border: none;
     border-radius: var(--bs-dropdown-border-radius)
 }
 

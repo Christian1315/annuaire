@@ -4,7 +4,7 @@
 @section('title',"Ajouter un agent")
 
 @section('content')
-<div class="container mt-3">
+<div class="container">
     <div class="row">
         <div class="col-md-2">
         </div>
@@ -178,7 +178,7 @@
                     </div>
                 </div>
 
-                <div class="row my-5">
+                <div class="row mt-3">
                     <div class="col-md-12  text-center">
                         <button class="close-button bg-green">Ajouter</button>
                     </div>

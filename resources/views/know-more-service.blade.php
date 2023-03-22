@@ -4,7 +4,7 @@
 @section('title',"En savoir plus")
 
 @section('content')
-    <div class="container mt-3">
+    <div class="container">
         <div class="row">
             <div class="col-md-2">
             </div>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="row my-5">
+                <div class="row mt-3">
                     <div class="col-md-12  text-center">
                         <a  href="/panel" class="close-button bg-green">Fermé</a>
                     </div>

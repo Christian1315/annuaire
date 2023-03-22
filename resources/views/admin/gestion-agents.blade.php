@@ -11,9 +11,9 @@
         <h3 class="search--title d-none d-xs-none d-sm-none d-md-block d-lg-block text-green text-uppercase text-center">
             Gestion des agents</h3>
 
-        <div class="row my-5">
+        <div class="row">
             <div class="col-md-12  text-center">
-                <a href="/add-agent" class="close-button bg-green">AJOUTER UN AGENT</a>
+                <a href="/add-agent" class="btn close-button bg-green">AJOUTER UN AGENT</a>
             </div>
         </div>
         <livewire:search-agent/>
